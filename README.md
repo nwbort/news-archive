@@ -1,3 +1,3 @@
 # Scheduled scraper
 
-For https://www.abc.net.au/news
+For Australian and NZ news websites
