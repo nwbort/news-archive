@@ -131,9 +131,33 @@
     
 
 
-      <div class="nojs-header-sticky">
-        <template shadowrootmode="open">
-          <style>
+        <rnz-site-header
+          id="rnz-site-header"
+          route="/"
+          class="sticky top-0 z-9999"
+          current-programme='{
+            "__typename": "Programme",
+            "fallbackTitle": "Saturday Morning presented by Susie Ferguson and Mihingarangi Forbes",
+            "code": "sat",
+            "name": "Saturday Morning",
+            "thumbnailUrl": "https://media.rnztools.nz/rnz/image/upload/s--QSSFg-kb--/t_embed-cover/v1724275665/4KL21PZ_saturday_morning_AM_banner_hero_jpg?_a=BACCd2AD"
+          }'
+            latest-bulletin='{
+              "id":"2019034308",
+              "context":"RNZ bulletin",
+              "title":"Radio New Zealand News",
+              "audioSrc":"https://podcast.radionz.co.nz/news/20260509-0800-064.mp3",
+              "releaseDate":"2026-05-08T20:00:00Z",
+              "duration": 499,
+              "primaryPublicWebPath": "/programmes/news-bulletin/story/2019034308/radio-new-zealand-news",
+              "images": null
+            }'
+        ></rnz-site-header>
+        <rnz-sub-navigation id="rnz-sub-navigation" route="/"></rnz-sub-navigation>
+        <noscript>
+          <div class="nojs-header-sticky">
+            <template shadowrootmode="open">
+              <style>
     body {
       line-height:inherit;
       font-size:62.5%;
@@ -1785,14 +1809,23 @@
     </header>
 </div>
 
-        </template>
-      </div>
+            </template>
+          </div>
+          <div>
+          </div>
+        </noscript>
 
     <div id="swup" data-route="/">
       <div class="wrapper">
 
         <div class="content" id="documentContent" role="main">
-          
+              <span class="c-widebar c-widebar--alert u-blocklink">
+  <span class="c-widebar__message">Six people pulled from floodwaters in Marlborough</span>
+    <a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/emergency/594705/six-people-pulled-from-floodwaters-in-marlborough"></a>
+</span>
+
+
+
 <div class="content__primary">
 
   
@@ -1816,7 +1849,7 @@
 <span class="kicker-item"><a href="/news/community">Community</a></span>
 </div>
 
-<span class="o-kicker__time kicker-item">about 1 hour ago</span>
+<span class="o-kicker__time kicker-item"></span>
 </div>
 <div class="o-digest__summary">
 <p lang="">Police Commissioner Richard Chambers has previously set an expectation that employment matters be resolved within 60 days.</p>
@@ -1835,23 +1868,23 @@
           <ul class="c-top-stories__list">
                 <li class="o-digest o-digest--news o-digest--extended u-blocklink has-thumbnail">
 <div class="thumb-container" aria-hidden="true">
-<img class="four_col " loading="lazy" alt="Ockham Awards" width="576" height="360" src="https://media.rnztools.nz/rnz/image/upload/s--ZQ5CWVSL--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_576/v1778206118/4JOY4PO_Untitled_design_2_png?_a=BACCd2AD" />
+<img class="four_col " loading="lazy" alt="A serious crash in Kumeū, left four people with injuries including two in critical condition." width="576" height="383" src="https://media.rnztools.nz/rnz/image/upload/s--NgDPQg9q--/c_crop,h_471,w_753,x_47,y_54/c_scale,h_471,w_753/c_scale,f_auto,q_auto,w_576/v1751017995/4K54V7B_Image_46_jpg?_a=BACCd2AD" />
 </div>
 <div class="o-digest__detail">
-<h3 class="o-digest__headline" lang=""><a class="faux-link" href="/news/media-technology/594701/dame-ardern-to-no-show-ockham-awards-despite-being-the-highest-profile-finalist">The noticeably absent finalist at the Ockham Awards</a></h3>
+<h3 class="o-digest__headline" lang=""><a class="faux-link" href="/news/emergency/594705/six-people-pulled-from-floodwaters-in-marlborough">Six people pulled from floodwaters in Marlborough</a></h3>
 <div class="o-kicker">
 <div class="o-kicker__zones">
-<span class="kicker-item"><a href="/news/media-technology">Media & Technology</a></span>
-<span class="kicker-item"><a href="/news/thedetail">The Detail</a></span>
+<span class="kicker-item"><a href="/news/national">New Zealand</a></span>
+<span class="kicker-item"><a href="/news/emergency">Emergencies</a></span>
 </div>
 
-<span class="o-kicker__time kicker-item">38 minutes ago</span>
+<span class="o-kicker__time kicker-item">5 minutes ago</span>
 </div>
 <div class="o-digest__summary">
-<p lang="">Pens are poised, pages are turning, and egos are trembling; it's time for the biggest night in books at the Ockham Awards - but Dame Jacinda Ardern won't be there.</p>
+<p lang="">Six people have been rescued after their vehicles were trapped by floodwaters between Nelson and Blenheim.</p>
 </div>
 </div>
-<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/media-technology/594701/dame-ardern-to-no-show-ockham-awards-despite-being-the-highest-profile-finalist">Dame Ardern to no-show Ockham Awards, despite being the highest-profile finalist</a>
+<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/emergency/594705/six-people-pulled-from-floodwaters-in-marlborough">Six people pulled from floodwaters in Marlborough</a>
 </li>
 
                 <li class="o-digest o-digest--news o-digest--extended u-blocklink has-thumbnail">
@@ -1865,7 +1898,7 @@
 <span class="kicker-item"><a href="/news/media-technology">Media & Technology</a></span>
 </div>
 
-<span class="o-kicker__time kicker-item">about 1 hour ago</span>
+<span class="o-kicker__time kicker-item"></span>
 </div>
 <div class="o-digest__summary">
 <p lang="">With children's podcasts now a fast-growing part of the audio industry, families have more choice than ever.</p>
@@ -1876,22 +1909,23 @@
 
                 <li class="o-digest o-digest--news o-digest--extended u-blocklink has-thumbnail">
 <div class="thumb-container" aria-hidden="true">
-<img class="four_col " loading="lazy" alt="Reform UK leader Nigel Farage reacts to local elections swinging favourably to his party, in north west England on 8 Ma, 2026, as votes continue to be counted." width="576" height="351" src="https://media.rnztools.nz/rnz/image/upload/s--_lNAMeWa--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_576/v1778268645/4JOWSGS_AFP_Farage_jpg?_a=BACCd2AD" />
+<img class="four_col " loading="lazy" alt="Ockham Awards" width="576" height="360" src="https://media.rnztools.nz/rnz/image/upload/s--ZQ5CWVSL--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_576/v1778206118/4JOY4PO_Untitled_design_2_png?_a=BACCd2AD" />
 </div>
 <div class="o-digest__detail">
-<h3 class="o-digest__headline" lang=""><a class="faux-link" href="/news/world/594702/uk-pm-starmer-vows-to-fight-on-after-local-polls-drubbing">UK PM Starmer vows to fight on after local polls drubbing</a></h3>
+<h3 class="o-digest__headline" lang=""><a class="faux-link" href="/news/media-technology/594701/dame-ardern-to-no-show-ockham-awards-despite-being-the-highest-profile-finalist">The noticeably absent finalist at the Ockham Awards</a></h3>
 <div class="o-kicker">
 <div class="o-kicker__zones">
-<span class="kicker-item"><a href="/news/world">World</a></span>
+<span class="kicker-item"><a href="/news/media-technology">Media & Technology</a></span>
+<span class="kicker-item"><a href="/news/thedetail">The Detail</a></span>
 </div>
 
-<span class="o-kicker__time kicker-item">10 minutes ago</span>
+<span class="o-kicker__time kicker-item">about 2 hours ago</span>
 </div>
 <div class="o-digest__summary">
-<p lang="">Britons suffering from a cost-of-living crisis appear to be flocking away from the centre-left Labour party, to insurgent parties, as results are counted for UK local elections.</p>
+<p lang="">Pens are poised, pages are turning, and egos are trembling; it's time for the biggest night in books at the Ockham Awards - but Dame Jacinda Ardern won't be there.</p>
 </div>
 </div>
-<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/world/594702/uk-pm-starmer-vows-to-fight-on-after-local-polls-drubbing">UK PM Starmer vows to fight on after local polls drubbing</a>
+<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/media-technology/594701/dame-ardern-to-no-show-ockham-awards-despite-being-the-highest-profile-finalist">Dame Ardern to no-show Ockham Awards, despite being the highest-profile finalist</a>
 </li>
 
           </ul>
@@ -1933,16 +1967,30 @@
         <ul class="c-top-stories__secondary-list">
                 <li class="o-digest o-digest--news o-digest--condensed u-blocklink">
 <div class="o-digest__detail">
-<h3 class="o-digest__headline" lang=""><a class="faux-link" href="/news/sport/594699/chiefs-see-off-reds-to-bag-sixth-straight-super-rugby-win">Chiefs see off Reds to bag sixth straight Super Rugby win</a></h3>
+<h3 class="o-digest__headline" lang=""><a class="faux-link" href="/news/emergency/594703/woman-hit-by-car-on-wellington-motorway-has-died">Woman hit by car on Wellington motorway has died</a></h3>
 <div class="o-kicker">
 <div class="o-kicker__zones">
-<span class="kicker-item"><a href="/news/sport">Sport</a></span>
+<span class="kicker-item"><a href="/news/emergency">Emergencies</a></span>
+</div>
+
+<span class="o-kicker__time kicker-item">31 minutes ago</span>
+</div>
+</div>
+<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/emergency/594703/woman-hit-by-car-on-wellington-motorway-has-died">Woman hit by car on Wellington motorway has died</a>
+</li>
+
+                <li class="o-digest o-digest--news o-digest--condensed u-blocklink">
+<div class="o-digest__detail">
+<h3 class="o-digest__headline" lang=""><a class="faux-link" href="/news/world/594702/uk-pm-starmer-vows-to-fight-on-after-local-polls-drubbing">UK PM Starmer vows to fight on after local polls drubbing</a></h3>
+<div class="o-kicker">
+<div class="o-kicker__zones">
+<span class="kicker-item"><a href="/news/world">World</a></span>
 </div>
 
 <span class="o-kicker__time kicker-item">about 1 hour ago</span>
 </div>
 </div>
-<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/sport/594699/chiefs-see-off-reds-to-bag-sixth-straight-super-rugby-win">Chiefs see off Reds to bag sixth straight Super Rugby win</a>
+<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/world/594702/uk-pm-starmer-vows-to-fight-on-after-local-polls-drubbing">UK PM Starmer vows to fight on after local polls drubbing</a>
 </li>
 
                 <li class="o-digest o-digest--news o-digest--condensed u-blocklink">
@@ -1953,7 +2001,7 @@
 <span class="kicker-item"><a href="/news/weather">Weather</a></span>
 </div>
 
-<span class="o-kicker__time kicker-item">8 minutes ago</span>
+<span class="o-kicker__time kicker-item">27 minutes ago</span>
 </div>
 </div>
 <a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/weather/594700/storm-easing-in-most-places-with-wind-warnings-still-on-the-map">Storm easing in most places, with wind warnings still on the map</a>
@@ -1961,30 +2009,30 @@
 
                 <li class="o-digest o-digest--news o-digest--condensed u-blocklink">
 <div class="o-digest__detail">
-<h3 class="o-digest__headline" lang=""><a class="faux-link" href="/news/world/594695/spanish-government-says-first-evacuees-from-hantavirus-ship-will-be-repatriated-sunday-local-time">Spain says first hantavirus ship evacuees to be repatriated Sunday local time</a></h3>
+<h3 class="o-digest__headline" lang=""><a class="faux-link" href="/news/sport/594699/chiefs-see-off-reds-to-bag-sixth-straight-super-rugby-win">Chiefs see off Reds to bag sixth straight Super Rugby win</a></h3>
+<div class="o-kicker">
+<div class="o-kicker__zones">
+<span class="kicker-item"><a href="/news/sport">Sport</a></span>
+</div>
+
+<span class="o-kicker__time kicker-item"></span>
+</div>
+</div>
+<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/sport/594699/chiefs-see-off-reds-to-bag-sixth-straight-super-rugby-win">Chiefs see off Reds to bag sixth straight Super Rugby win</a>
+</li>
+
+                <li class="o-digest o-digest--news o-digest--condensed u-blocklink">
+<div class="o-digest__detail">
+<h3 class="o-digest__headline" lang=""><a class="faux-link" href="/news/world/594704/us-expects-iranian-response-to-peace-proposal-soon-fighting-flares-in-gulf">US awaits Iran response to peace deal amid fresh fighting</a></h3>
 <div class="o-kicker">
 <div class="o-kicker__zones">
 <span class="kicker-item"><a href="/news/world">World</a></span>
 </div>
 
-<span class="o-kicker__time kicker-item"></span>
+<span class="o-kicker__time kicker-item">21 minutes ago</span>
 </div>
 </div>
-<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/world/594695/spanish-government-says-first-evacuees-from-hantavirus-ship-will-be-repatriated-sunday-local-time">Spanish government says first evacuees from hantavirus ship will be repatriated Sunday local time</a>
-</li>
-
-                <li class="o-digest o-digest--news o-digest--condensed u-blocklink">
-<div class="o-digest__detail">
-<h3 class="o-digest__headline" lang=""><a class="faux-link" href="/news/political/594688/fees-free-university-scheme-to-be-scrapped-in-upcoming-budget-nicola-willis-confirms">Fees-free university scheme to be scrapped in upcoming Budget</a></h3>
-<div class="o-kicker">
-<div class="o-kicker__zones">
-<span class="kicker-item"><a href="/news/political">Politics</a></span>
-</div>
-
-<span class="o-kicker__time kicker-item"></span>
-</div>
-</div>
-<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/political/594688/fees-free-university-scheme-to-be-scrapped-in-upcoming-budget-nicola-willis-confirms">Fees-free university scheme to be scrapped in upcoming Budget, Nicola Willis confirms</a>
+<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/world/594704/us-expects-iranian-response-to-peace-proposal-soon-fighting-flares-in-gulf">US expects Iranian response to peace proposal soon, fighting flares in Gulf</a>
 </li>
 
                 <li class="o-digest o-digest--news o-digest--condensed u-blocklink">
@@ -1995,20 +2043,6 @@
 </div>
 </div>
 <a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/life/food/five-easy-mother-s-day-ideas-for-breakfast-in-bed">Five easy Mother's Day ideas for breakfast in bed</a>
-</li>
-
-                <li class="o-digest o-digest--news o-digest--condensed u-blocklink">
-<div class="o-digest__detail">
-<h3 class="o-digest__headline" lang=""><a class="faux-link" href="/news/crime-and-justice/594690/inquest-hears-mother-partner-likely-suspects-in-baby-soul-mathew-turany-s-death">Who killed Soul? Inquest hears who the main suspects are</a></h3>
-<div class="o-kicker">
-<div class="o-kicker__zones">
-<span class="kicker-item"><a href="/news/crime-and-justice">Crime and Justice</a></span>
-</div>
-
-<span class="o-kicker__time kicker-item"></span>
-</div>
-</div>
-<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/crime-and-justice/594690/inquest-hears-mother-partner-likely-suspects-in-baby-soul-mathew-turany-s-death">Inquest hears mother, partner likely suspects in baby Soul Mathew Turany's death</a>
 </li>
 
         </ul>
@@ -2031,7 +2065,7 @@
 
     <div class="t-home-bulletin">
     <div class="rnz-media-container">
-      <span class="rnz-media-text">Latest news bulletin</span><span class="rnz-media-button"><rnz-queue-media variant="icon-only" icon-expand-click-area="true" media='{"id":2019034304,"title":"Radio New Zealand News","audioSrc":"https://podcast.radionz.co.nz/news/20260509-0700-064.mp3","context":"RNZ Bulletin","releaseDate":"2026-05-09T07:00:00+12:00","duration":306,"canDownload":false}'></rnz-queue-media></span><span class="rnz-media-text-extra"> 7 am Saturday  9 May</span>
+      <span class="rnz-media-text">Latest news bulletin</span><span class="rnz-media-button"><rnz-queue-media variant="icon-only" icon-expand-click-area="true" media='{"id":2019034308,"title":"Radio New Zealand News","audioSrc":"https://podcast.radionz.co.nz/news/20260509-0800-064.mp3","context":"RNZ Bulletin","releaseDate":"2026-05-09T08:00:00+12:00","duration":499,"canDownload":false}'></rnz-queue-media></span><span class="rnz-media-text-extra"> 8 am Saturday  9 May</span>
     </div>
     </div>
 
@@ -2079,27 +2113,27 @@
           <ul class="o-category__list">
             <li class="o-digest o-digest--news o-digest--extended lead-story u-blocklink has-thumbnail">
 <div class="thumb-container" aria-hidden="true">
-<img class="eight_col " loading="lazy" alt="Stylised medical gloves" width="1050" height="656" src="https://media.rnztools.nz/rnz/image/upload/s--ZCVL3BZU--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_1050/v1747095745/4K7M4YZ_public_health_IN_DEPTH_ONLY_03_jpg?_a=BACCd2AD" />
+<img class="eight_col " loading="lazy" alt="Bridge" width="1050" height="700" src="https://media.rnztools.nz/rnz/image/upload/s--cdJ8eX_Q--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_1050/v1770771821/4JTFEI6_Nicola_Willis_10_02_26_1_jpg?_a=BACCd2AD" />
 </div>
 <div class="o-digest__detail">
-<h3 class="o-digest__headline" lang=""><a class="faux-link" href="/news/health/594613/the-gp-telling-medical-students-to-consider-another-career">The GP telling medical students to consider another career</a></h3>
+<h3 class="o-digest__headline" lang=""><a class="faux-link" href="/news/political/594688/fees-free-university-scheme-to-be-scrapped-in-upcoming-budget-nicola-willis-confirms">Fees-free university scheme to be scrapped in upcoming Budget</a></h3>
 <div class="o-kicker">
 <div class="o-kicker__zones">
 <span class="kicker-item"><a href="/news/political">Politics</a></span>
-<span class="kicker-item"><a href="/news/regional">Regions</a></span>
+<span class="kicker-item"><a href="/news/education">Education</a></span>
 </div>
 
 <span class="o-kicker__time kicker-item">8 May 2026</span>
 </div>
 <div class="o-digest__summary">
-<p lang="">"It's not an attractive job": A Canterbury-based doctor says he no longer recommends his speciality to trainees. <span class="media-types">Audio</span></p>
+<p lang="">Finance minister Nicola Willis said students completing study this year remain eligible.</p>
 </div>
 </div>
-<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/health/594613/the-gp-telling-medical-students-to-consider-another-career">The GP telling medical students to consider another career</a>
+<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/news/political/594688/fees-free-university-scheme-to-be-scrapped-in-upcoming-budget-nicola-willis-confirms">Fees-free university scheme to be scrapped in upcoming Budget, Nicola Willis confirms</a>
 </li>
 
+                  <li class="list-item"><h4><a class="link-reversed" href="/news/health/594613/the-gp-telling-medical-students-to-consider-another-career">The GP telling medical students to consider another career</a></h4></li>
                   <li class="list-item"><h4><a class="link-reversed" href="/news/political/594625/what-you-need-to-know-about-new-zealand-s-new-citizenship-test-plans">What you need to know about New Zealand&#39;s new citizenship test plans</a></h4></li>
-                  <li class="list-item"><h4><a class="link-reversed" href="/news/environment/594665/cyclone-gabrielle-exposed-the-risks-of-forestry-slash-new-research-suggests-little-has-changed">Cyclone Gabrielle exposed the risks of forestry slash. New research suggests little has changed</a></h4></li>
           </ul>          
 
           <div class="o-category__footer">
@@ -2626,6 +2660,35 @@
 <div class="o-digest__detail">
 </div>
 <div class="o-digest__controls">
+<div class="c-play-controller" data-uuid="eb793255-3ebe-44c8-8cb9-35b41bc0c4ba">
+<span><rnz-queue-media variant="default" media='{"id":2019034309,"title":"Latest RNZ News Bulletin","audioSrc":"https://podcast.radionz.co.nz/diginews/20260509-0800-064.mp3","context":"Digital Bulletin","releaseDate":"2026-05-09T08:00:00+12:00","duration":499,"canDownload":false}'></rnz-queue-media></span><p class="c-play-controller__message"> This audio is not downloadable due to copyright restrictions. </p>
+
+</div>
+</div></li>
+
+          <li class="o-digest o-digest--audio o-digest--condensed u-blocklink">
+<div class="o-digest__detail">
+</div>
+<div class="o-digest__controls">
+<div class="c-play-controller" data-uuid="0c5bf2e7-364c-439e-9b7f-2aef2bf3527a">
+<span><rnz-queue-media variant="default" media='{"id":2019034308,"title":"Radio New Zealand News","audioSrc":"https://podcast.radionz.co.nz/news/20260509-0800-064.mp3","context":"RNZ Bulletin","releaseDate":"2026-05-09T08:00:00+12:00","duration":499,"canDownload":false,"images":{"detail":"https://rnz-ressh.cloudinary.com/image/upload/s--FZNIaAz9--/c_fill,h_300,w_300/q_100/f_webp/rnz-national-stream-cover","detail_2x":"https://rnz-ressh.cloudinary.com/image/upload/s--MzvI9vqp--/c_fill,h_600,w_600/q_80/f_webp/rnz-national-stream-cover","thumb":"https://rnz-ressh.cloudinary.com/image/upload/s--xfCd2Sh8--/c_fill,h_100,w_100/q_100/f_webp/rnz-national-stream-cover-no-logo","thumb_2x":"https://rnz-ressh.cloudinary.com/image/upload/s--aEf0kaqZ--/c_fill,h_200,w_200/q_80/f_webp/rnz-national-stream-cover-no-logo"}}'></rnz-queue-media></span><p class="c-play-controller__message"> This audio is not downloadable due to copyright restrictions. </p>
+
+</div>
+</div></li>
+
+          <li class="o-digest o-digest--audio o-digest--condensed u-blocklink">
+<div class="o-digest__detail">
+</div>
+<div class="o-digest__controls">
+<div class="c-play-controller" data-uuid="97107ab8-06ff-47b6-8988-3da1ed715dbb">
+<span><rnz-queue-media variant="default" media='{"id":2019034307,"title":"RNZ Pacific News at 7am on 9 May 2026","audioSrc":"https://podcast.radionz.co.nz/rnzinews/rnzinews-20260509-0700-rnz_pacific_news_at_7am_on_9_may_2026-128.mp3","context":"World \u0026 Pacific News","releaseDate":"2026-05-09T07:00:00+12:00","duration":540,"canDownload":true,"images":{"detail":"https://media.rnztools.nz/rnz/image/upload/s--51MRpXvB--/c_fill,f_auto,g_auto,h_300,q_auto,w_300/v1671144917/4LGOTOC_world_and_pacific_news_cover_internal_2022_png?_a=BACCd2AD","detail_2x":"https://media.rnztools.nz/rnz/image/upload/s--0K7jNShu--/c_fill,f_auto,g_auto,h_600,q_auto,w_600/v1671144917/4LGOTOC_world_and_pacific_news_cover_internal_2022_png?_a=BACCd2AD","thumb":"https://media.rnztools.nz/rnz/image/upload/s--o7E-NwAM--/c_fill,f_auto,g_auto,h_100,q_auto,w_100/v1671144917/4LGOTOC_world_and_pacific_news_cover_internal_2022_png?_a=BACCd2AD","thumb_2x":"https://media.rnztools.nz/rnz/image/upload/s--jqQSJu5M--/c_fill,f_auto,g_auto,h_200,q_auto,w_200/v1671144917/4LGOTOC_world_and_pacific_news_cover_internal_2022_png?_a=BACCd2AD"}}'></rnz-queue-media></span>
+</div>
+</div></li>
+
+          <li class="o-digest o-digest--audio o-digest--condensed u-blocklink">
+<div class="o-digest__detail">
+</div>
+<div class="o-digest__controls">
 <div class="c-play-controller" data-uuid="934b6fbf-6550-4d04-be35-56e2ec5d55b3">
 <span><rnz-queue-media variant="default" media='{"id":2019034306,"title":"RNZ News at 7am, May 9","audioSrc":"https://podcast.radionz.co.nz/newsbulletinpodcast/20260509-0700-064.mp3","context":"RNZ News","releaseDate":"2026-05-09T07:00:00+12:00","duration":318,"canDownload":true,"images":{"detail":"https://media.rnztools.nz/rnz/image/upload/s--SoLbTtc3--/c_fill,f_auto,g_auto,h_300,q_auto,w_300/v1767843904/4JV488X_rnz_news_external_cover_v2_png?_a=BACCd2AD","detail_2x":"https://media.rnztools.nz/rnz/image/upload/s--ZIZpvYsV--/c_fill,f_auto,g_auto,h_600,q_auto,w_600/v1767843904/4JV488X_rnz_news_external_cover_v2_png?_a=BACCd2AD","thumb":"https://media.rnztools.nz/rnz/image/upload/s--CUhY48kV--/c_fill,f_auto,g_auto,h_100,q_auto,w_100/v1767843904/4JV488X_rnz_news_external_cover_v2_png?_a=BACCd2AD","thumb_2x":"https://media.rnztools.nz/rnz/image/upload/s--0I2s1coj--/c_fill,f_auto,g_auto,h_200,q_auto,w_200/v1767843904/4JV488X_rnz_news_external_cover_v2_png?_a=BACCd2AD"}}'></rnz-queue-media></span>
 </div>
@@ -2638,34 +2701,6 @@
 <div class="c-play-controller" data-uuid="ddda51a2-ff2f-4a11-86ff-e5289e2a4a62">
 <span><rnz-queue-media variant="default" media='{"id":2019034305,"title":"Latest RNZ News Bulletin","audioSrc":"https://podcast.radionz.co.nz/diginews/20260509-0700-064.mp3","context":"Digital Bulletin","releaseDate":"2026-05-09T07:00:00+12:00","duration":306,"canDownload":false}'></rnz-queue-media></span><p class="c-play-controller__message"> This audio is not downloadable due to copyright restrictions. </p>
 
-</div>
-</div></li>
-
-          <li class="o-digest o-digest--audio o-digest--condensed u-blocklink">
-<div class="o-digest__detail">
-</div>
-<div class="o-digest__controls">
-<div class="c-play-controller" data-uuid="9cc1b54c-abbf-439b-8e73-3d56cd6e9d9a">
-<span><rnz-queue-media variant="default" media='{"id":2019034304,"title":"Radio New Zealand News","audioSrc":"https://podcast.radionz.co.nz/news/20260509-0700-064.mp3","context":"RNZ Bulletin","releaseDate":"2026-05-09T07:00:00+12:00","duration":306,"canDownload":false,"images":{"detail":"https://rnz-ressh.cloudinary.com/image/upload/s--FZNIaAz9--/c_fill,h_300,w_300/q_100/f_webp/rnz-national-stream-cover","detail_2x":"https://rnz-ressh.cloudinary.com/image/upload/s--MzvI9vqp--/c_fill,h_600,w_600/q_80/f_webp/rnz-national-stream-cover","thumb":"https://rnz-ressh.cloudinary.com/image/upload/s--xfCd2Sh8--/c_fill,h_100,w_100/q_100/f_webp/rnz-national-stream-cover-no-logo","thumb_2x":"https://rnz-ressh.cloudinary.com/image/upload/s--aEf0kaqZ--/c_fill,h_200,w_200/q_80/f_webp/rnz-national-stream-cover-no-logo"}}'></rnz-queue-media></span><p class="c-play-controller__message"> This audio is not downloadable due to copyright restrictions. </p>
-
-</div>
-</div></li>
-
-          <li class="o-digest o-digest--audio o-digest--condensed u-blocklink">
-<div class="o-digest__detail">
-</div>
-<div class="o-digest__controls">
-<div class="c-play-controller" data-uuid="240a9d45-ae2a-4966-8d20-af45dffd11af">
-<span><rnz-queue-media variant="default" media='{"id":2019034271,"title":"Tagata o te Moana for 9 May 2026","audioSrc":"https://podcast.radionz.co.nz/tagata/tagata-20260509-0700-tagata_o_te_moana_for_9_may_2026-128.mp3","context":"Tagata o te Moana","releaseDate":"2026-05-09T07:00:00+12:00","duration":1913,"canDownload":true,"images":{"detail":"https://media.rnztools.nz/rnz/image/upload/s--A1GzKTXn--/c_fill,f_auto,g_auto,h_300,q_auto,w_300/v1671144931/4LGOTOC_tagata_o_te_moana_cover_internal_2022_png?_a=BACCd2AD","detail_2x":"https://media.rnztools.nz/rnz/image/upload/s--PBj7uOtN--/c_fill,f_auto,g_auto,h_600,q_auto,w_600/v1671144931/4LGOTOC_tagata_o_te_moana_cover_internal_2022_png?_a=BACCd2AD","thumb":"https://media.rnztools.nz/rnz/image/upload/s--gatC2A40--/c_fill,f_auto,g_auto,h_100,q_auto,w_100/v1671144931/4LGOTOC_tagata_o_te_moana_cover_internal_2022_png?_a=BACCd2AD","thumb_2x":"https://media.rnztools.nz/rnz/image/upload/s--BDXrg-D4--/c_fill,f_auto,g_auto,h_200,q_auto,w_200/v1671144931/4LGOTOC_tagata_o_te_moana_cover_internal_2022_png?_a=BACCd2AD"}}'></rnz-queue-media></span>
-</div>
-</div></li>
-
-          <li class="o-digest o-digest--audio o-digest--condensed u-blocklink">
-<div class="o-digest__detail">
-</div>
-<div class="o-digest__controls">
-<div class="c-play-controller" data-uuid="e8c20e18-1feb-4146-bda4-58902e641e82">
-<span><rnz-queue-media variant="default" media='{"id":2019034211,"title":"News in Niuean for 9 May 2026","audioSrc":"https://podcast.radionz.co.nz/paclangnews/paclangnews-20260509-0652-news_in_niuean_for_9_may_2026-128.mp3","context":"News in Pacific Languages","releaseDate":"2026-05-09T06:52:00+12:00","duration":165,"canDownload":true,"images":{"detail":"https://media.rnztools.nz/rnz/image/upload/s--IdGdxh4A--/c_fill,f_auto,g_auto,h_300,q_auto,w_300/v1712630411/4KRZN93_news_in_pacific_languages_cover_internal_2022_png?_a=BACCd2AD","detail_2x":"https://media.rnztools.nz/rnz/image/upload/s--EcI_FFJn--/c_fill,f_auto,g_auto,h_600,q_auto,w_600/v1712630411/4KRZN93_news_in_pacific_languages_cover_internal_2022_png?_a=BACCd2AD","thumb":"https://media.rnztools.nz/rnz/image/upload/s--rqlBMGuD--/c_fill,f_auto,g_auto,h_100,q_auto,w_100/v1712630411/4KRZN93_news_in_pacific_languages_cover_internal_2022_png?_a=BACCd2AD","thumb_2x":"https://media.rnztools.nz/rnz/image/upload/s--H1rKGgUM--/c_fill,f_auto,g_auto,h_200,q_auto,w_200/v1712630411/4KRZN93_news_in_pacific_languages_cover_internal_2022_png?_a=BACCd2AD"}}'></rnz-queue-media></span>
 </div>
 </div></li>
 
@@ -2683,6 +2718,16 @@
 
   <div class="c-tile-list layout--vertical">
     <ul class="container">
+
+          <li class="o-tile o-tile--programme o-tile--standard u-blocklink has-thumbnail">
+<div class="thumb-container">
+<a href="/international/programmes/worldandpacificnews"><img width="576" height="576" src="https://media.rnztools.nz/rnz/image/upload/s--Ec77jdMS--/ar_1:1,c_fill,f_auto,g_auto,h_576,q_auto,w_576/v1671144917/4LGOTOC_world_and_pacific_news_cover_internal_2022_png?_a=BACCd2AD" alt="4lgotoc world and pacific news cover internal 2022 png" /></a>
+</div>
+<div class="o-tile__detail">
+<h3 class="o-tile__title"><a class="faux-link faux-link--not-visited" href="/international/programmes/worldandpacificnews">World &amp; Pacific News</a></h3>
+</div>
+<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/international/programmes/worldandpacificnews">World & Pacific News</a>
+</li>
 
           <li class="o-tile o-tile--programme o-tile--standard u-blocklink has-thumbnail">
 <div class="thumb-container">
@@ -2714,16 +2759,6 @@
 <a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/international/programmes/datelinepacific">Pacific Waves</a>
 </li>
 
-          <li class="o-tile o-tile--programme o-tile--standard u-blocklink has-thumbnail">
-<div class="thumb-container">
-<a href="/international/programmes/worldandpacificnews"><img width="576" height="576" src="https://media.rnztools.nz/rnz/image/upload/s--Ec77jdMS--/ar_1:1,c_fill,f_auto,g_auto,h_576,q_auto,w_576/v1671144917/4LGOTOC_world_and_pacific_news_cover_internal_2022_png?_a=BACCd2AD" alt="4lgotoc world and pacific news cover internal 2022 png" /></a>
-</div>
-<div class="o-tile__detail">
-<h3 class="o-tile__title"><a class="faux-link faux-link--not-visited" href="/international/programmes/worldandpacificnews">World &amp; Pacific News</a></h3>
-</div>
-<a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/international/programmes/worldandpacificnews">World & Pacific News</a>
-</li>
-
     </ul>
   </div>
 
@@ -2747,7 +2782,7 @@
     <span class="on-air-status assistive-text">On now</span>
 
     <div class="thumb-container">
-      <a href="/national/programmes/countrylife"><img width="300" height="284" src="https://media.rnztools.nz/rnz/image/upload/s--3qYp9_uB--/ar_1:1,c_fill,f_auto,g_auto,h_300,q_auto,w_300/v1719458473/4KNXAOQ_countrylife_internal_png?_a=BACCd2AD" alt="4knxaoq countrylife internal png" /></a>
+      <a href="/national/programmes/saturday"><img width="300" height="149" src="https://media.rnztools.nz/rnz/image/upload/s--pW_GGQsL--/ar_1:1,c_fill,f_auto,g_auto,h_300,q_auto,w_300/v1724275665/4KL21PZ_saturday_morning_AM_banner_hero_jpg?_a=BACCd2AD" alt="4kl21pz saturday morning am banner hero jpg" /></a>
        <span class="o-live-station__stream-link"><span class="rnz-media-button"><rnz-queue-media variant="icon-only" icon-expand-click-area="true"
           media='{
             "id":"national",
@@ -2765,31 +2800,32 @@
 
     <div class="o-tile__detail">
       <h3 class="o-tile__title">
+        <a class="faux-link faux-link--not-visited" href="/national/programmes/saturday">Saturday Morning</a>
+      </h3>
+
+      <span class="air-times">8am - Midday</span>
+
+    </div>
+  </li>
+
+        
+  <li class="o-tile o-tile--programme u-blocklink on-prev o-tile--secondary-programme o-tile--split-view">
+    <span class="on-air-status assistive-text">Just finished</span>
+
+    <div class="thumb-container">
+      <a href="/national/programmes/countrylife"><img width="300" height="284" src="https://media.rnztools.nz/rnz/image/upload/s--3qYp9_uB--/ar_1:1,c_fill,f_auto,g_auto,h_300,q_auto,w_300/v1719458473/4KNXAOQ_countrylife_internal_png?_a=BACCd2AD" alt="4knxaoq countrylife internal png" /></a>
+      
+    </div>
+
+    <div class="o-tile__detail">
+      <h3 class="o-tile__title">
         <a class="faux-link faux-link--not-visited" href="/national/programmes/countrylife">Country Life</a>
       </h3>
 
       
 
     </div>
-  </li>
-
-        
-  <li class="o-tile o-tile--programme  o-tile--secondary-programme o-tile--split-view">
-    <span class="on-air-status assistive-text">Just finished</span>
-
-    <div class="thumb-container">
-      <img width="300" height="300" src="https://media.rnztools.nz/rnz/image/upload/s--S_vOU66W--/ar_1:1,c_fill,f_auto,g_auto,h_300,q_auto,w_300/v1653355608/4LRA3ZF_national_fallback_jpg?_a=BACCd2AD" alt="4lra3zf national fallback jpg" />
-      
-    </div>
-
-    <div class="o-tile__detail">
-      <h3 class="o-tile__title">
-        <span class="faux-link faux-link--not-visited">Feature Programming The Detail</span>
-      </h3>
-
-      
-
-    </div>
+      <a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/national/programmes/countrylife">Country Life</a>
   </li>
 
         
@@ -2797,19 +2833,19 @@
     <span class="on-air-status assistive-text">Up next</span>
 
     <div class="thumb-container">
-      <a href="/national/programmes/saturday"><img width="300" height="149" src="https://media.rnztools.nz/rnz/image/upload/s--pW_GGQsL--/ar_1:1,c_fill,f_auto,g_auto,h_300,q_auto,w_300/v1724275665/4KL21PZ_saturday_morning_AM_banner_hero_jpg?_a=BACCd2AD" alt="4kl21pz saturday morning am banner hero jpg" /></a>
+      <a href="/national/programmes/mapuna"><img width="300" height="300" src="https://media.rnztools.nz/rnz/image/upload/s--Z1oy3wOr--/ar_1:1,c_fill,f_auto,g_auto,h_300,q_auto,w_300/v1671591442/4LGF94K_mapuna_internal_cover_png?_a=BACCd2AD" alt="4lgf94k mapuna internal cover png" /></a>
       
     </div>
 
     <div class="o-tile__detail">
       <h3 class="o-tile__title">
-        <a class="faux-link faux-link--not-visited" href="/national/programmes/saturday">Saturday Morning</a>
+        <a class="faux-link faux-link--not-visited" href="/national/programmes/mapuna">Māpuna</a>
       </h3>
 
-      <span class="air-times">8am - Midday</span>
+      <span class="air-times">12.10pm – 1pm</span>
 
     </div>
-      <a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/national/programmes/saturday">Saturday Morning</a>
+      <a aria-hidden="true" tabindex="-1" class="u-blocklink__overlay-link" href="/national/programmes/mapuna">Māpuna</a>
   </li>
 
       </ul>
@@ -2862,7 +2898,7 @@
     <span class="on-air-status assistive-text">Latest</span>
 
     <div class="thumb-container">
-      <a href="/international/programmes/tagata-o-te-moana"><img width="300" height="300" src="https://media.rnztools.nz/rnz/image/upload/s--BzUJHYtX--/ar_1:1,c_fill,f_auto,g_auto,h_300,q_auto,w_300/v1671144931/4LGOTOC_tagata_o_te_moana_cover_internal_2022_png?_a=BACCd2AD" alt="4lgotoc tagata o te moana cover internal 2022 png" /></a>
+      <a href="/international/programmes/worldandpacificnews"><img width="300" height="300" src="https://media.rnztools.nz/rnz/image/upload/s--grCVZYN3--/ar_1:1,c_fill,f_auto,g_auto,h_300,q_auto,w_300/v1671144917/4LGOTOC_world_and_pacific_news_cover_internal_2022_png?_a=BACCd2AD" alt="4lgotoc world and pacific news cover internal 2022 png" /></a>
        <span class="o-live-station__stream-link"><span class="rnz-media-button"><rnz-queue-media variant="icon-only" icon-expand-click-area="true"
       media='{
         "id":"pacific",
@@ -2880,7 +2916,7 @@
 
     <div class="o-tile__detail">
       <h3 class="o-tile__title">
-        <a class="faux-link faux-link--not-visited" href="/international/programmes/tagata-o-te-moana">Tagata o te Moana</a>
+        <a class="faux-link faux-link--not-visited" href="/international/programmes/worldandpacificnews">World &amp; Pacific News</a>
       </h3>
 
       
